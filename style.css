@@ -3,17 +3,87 @@ body{
     font-family: Beth Ellen;
     color: aliceblue;
 }
-.list{
+.menu{
     font-family: belleza;
-
-
+    color: aliceblue;
+    font-size: 24px;
 }
  h2{ 
     font-family: Limelight;
+    margin-left: 64px;
 }
-p{
+h3{
+    font-family: Limelight;
+    margin-left: 64px;
+    font-size: 20px;
+}
+h4{
+    font-family: Limelight;
+    margin-left: 64px;
+    font-size: 20px;
+}
+h5{
+    font-family: Limelight;
+    margin-left: 64px;
+    font-size: 20px
+}
+.card{
     font-family: belleza;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.disco{
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 277px;
+color: aliceblue;
+gap: 30px;
+}
+.container{
+    height: 736px;
+    width: 1288px;
+}
+.card-habilidades{
+    font-family: belleza;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.card-habilidades p {
+    width: 40%;
+}
+.container-habilidades img{
+ height: 750px;
 
 }
+.container-habilidades{
+    height: 90vh;
+    width: 100%;
+}
+
+.container-contato{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 50%;
+font-family: belleza;
+background-color: black;
+height: 500px;
+width: 600px;
+border-radius: 30px;
+list-style-type: none;
+}
+  .lista img{
+    height: 24px;
+    width: 24px;
+    font-size: 30px;
+  }
+  #contato{
+    height: 736px;
+    width: 1288px;
+  }
